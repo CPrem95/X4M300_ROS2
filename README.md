@@ -32,14 +32,12 @@ Install the setup.py
 ```
 python3 setup.py install
 ```
-Go back to the $Home, and create a new ros2 workspace directory. e.g:: 
-```
-mkdir uwb_ws 
-```
 
-Clone the provided X4M300_ROS2 git there.
+Clone the provided X4M300_ROS2 git to $Home. 
 
-Go to the 'support' directory and install both .deb files (use 'software install').
+Either use the cloned X4M300_ROS2 itself as the workspace or rename it:: uwb_ws
+
+Go to the 'uwb_ws/support' directory and install both .deb files (use 'software install').
 
 Now, build the ros2 packages.
 
