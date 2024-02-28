@@ -45,9 +45,11 @@ Now, build the ros2 packages.
 colcon build
 ```
 
+*** An issue arises if you are not in the ws named: 'uwb_ws'. In that case either rename or delete the entire 'build' folder and rebuild.
+
 If everything went fine, connect the UWB radar module and find the device ID (e.g. /dev/ttyACM0 [default])
 
-If not the [default], go to the /home/arms/uwb_ws/src/novelda_x4m300/launch and edit the line#9 to the new device ID.
+If not the [default] dev ID, go to the /home/arms/uwb_ws/src/novelda_x4m300/launch and edit the line#9 to the new device ID.
 
 Rebuild the workspace.
 
