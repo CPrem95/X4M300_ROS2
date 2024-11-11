@@ -56,5 +56,5 @@ Rebuild the workspace.
 Now you may run the launch file:
 
 ```
-ros2 launch novelda_x4m300 uwblaunch.py 
+ros2 launch novelda_x4m300 uwb_1_launch.py 
 ```
