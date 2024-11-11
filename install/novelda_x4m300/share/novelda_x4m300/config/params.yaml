@@ -1,6 +1,0 @@
-# params.yaml >>> This is different compared to ROS1, read the documentation:: https://docs.ros.org/en/foxy/How-To-Guides/Parameters-YAML-files-migration-guide.html#yaml-file-example
-/**: 
-  ros__parameters:
-    pubRate: 20 # <20{FPS of the UWB radar} 
-    xLims: [1, 1000] #limits in the plotting x axis 0<limit<1400
-    bins: 1000 #number of bins from the reading

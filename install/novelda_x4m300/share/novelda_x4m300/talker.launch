@@ -1,7 +1,0 @@
-<launch>
-
-	<group ns="SampleTalker1">
-		<node pkg="x4m300" name="talk" type="talker.py" output="screen"/>
-	</group>
-
-</launch>

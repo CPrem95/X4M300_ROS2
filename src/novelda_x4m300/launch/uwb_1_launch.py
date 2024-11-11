@@ -6,7 +6,7 @@ import os
 from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    radar1 = '/dev/ttyACM1'
+    radar1 = '/dev/ttyACM0'
     # radar2 = '/dev/ttyACM2'
     # radar3 = '/dev/ttyACM3'
     # radar4 = '/dev/ttyACM4'

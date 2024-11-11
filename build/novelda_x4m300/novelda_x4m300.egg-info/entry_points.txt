@@ -1,5 +1,0 @@
-[console_scripts]
-test = novelda_x4m300.scripts.publisher:main
-uwbListener = novelda_x4m300.scripts.plotUWB:main
-uwbTalker = novelda_x4m300.scripts.readUWB:main
-

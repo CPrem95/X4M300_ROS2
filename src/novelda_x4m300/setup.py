@@ -15,7 +15,7 @@ setup(
         (os.path.join('share', package_name), glob('launch/*launch.py')),
         (os.path.join('share', package_name), glob('launch/*.launch')),
         (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
-        (os.path.join('share', package_name, package_name, 'scripts/python35/pymoduleconnector/moduleconnectorwrapper'), glob('*.so')),
+        (os.path.join('lib/python3.10/site-packages', package_name, 'scripts/python35/pymoduleconnector/moduleconnectorwrapper'), glob(os.path.join(package_name, 'scripts/python35/pymoduleconnector/moduleconnectorwrapper','*.so'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
