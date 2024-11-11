@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/novelda_x4m300/novelda_x4m300.egg-info/PKG-INFO
+writing dependency_links to ../../build/novelda_x4m300/novelda_x4m300.egg-info/dependency_links.txt
+writing entry points to ../../build/novelda_x4m300/novelda_x4m300.egg-info/entry_points.txt
+writing requirements to ../../build/novelda_x4m300/novelda_x4m300.egg-info/requires.txt
+writing top-level names to ../../build/novelda_x4m300/novelda_x4m300.egg-info/top_level.txt
+reading manifest file '../../build/novelda_x4m300/novelda_x4m300.egg-info/SOURCES.txt'
+writing manifest file '../../build/novelda_x4m300/novelda_x4m300.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying config/params.yaml -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/config
+running install_egg_info
+removing '/home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/novelda_x4m300/novelda_x4m300.egg-info to /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test script to /home/arms/X4M300_ws/install/novelda_x4m300/lib/novelda_x4m300
+Installing uwbListener script to /home/arms/X4M300_ws/install/novelda_x4m300/lib/novelda_x4m300
+Installing uwbTalker script to /home/arms/X4M300_ws/install/novelda_x4m300/lib/novelda_x4m300
+writing list of installed files to '/home/arms/X4M300_ws/build/novelda_x4m300/install.log'

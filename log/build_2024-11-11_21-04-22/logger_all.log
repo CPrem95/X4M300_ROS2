@@ -1,0 +1,266 @@
+[0.122s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.122s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x795bde12afe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x795bde264220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x795bde264220>>, mixin_verb=('build',))
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.257s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arms/X4M300_ws'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/novelda_x4m300) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/novelda_x4m300) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/novelda_x4m300) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/novelda_x4m300) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/novelda_x4m300) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/novelda_x4m300) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/novelda_x4m300) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/novelda_x4m300) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/novelda_x4m300) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/novelda_x4m300' with type 'ros.ament_python' and name 'novelda_x4m300'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_parameters' with type 'ros.ament_python' and name 'python_parameters'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(support) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arms/launcher_ws/install
+[0.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arms/my_ws/install
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/arms/turtlebot3_ws/install
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/arms/X4M300_ws/install
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arms/X4M300_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arms/X4M300_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/arms/X4M300_ws/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'python_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arms/X4M300_ws/build/python_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arms/X4M300_ws/install/python_parameters', 'merge_install': False, 'path': '/home/arms/X4M300_ws/src/python_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'novelda_x4m300' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'novelda_x4m300' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'novelda_x4m300' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'novelda_x4m300' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'novelda_x4m300' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'novelda_x4m300' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'novelda_x4m300' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'novelda_x4m300' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'novelda_x4m300' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'novelda_x4m300' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arms/X4M300_ws/build/novelda_x4m300', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arms/X4M300_ws/install/novelda_x4m300', 'merge_install': False, 'path': '/home/arms/X4M300_ws/src/novelda_x4m300', 'symlink_install': False, 'test_result_base': None}
+[0.319s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.320s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arms/X4M300_ws/src/custom_interfaces' with build type 'ament_cmake'
+[0.320s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arms/X4M300_ws/src/custom_interfaces'
+[0.322s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arms/X4M300_ws/src/python_parameters' with build type 'ament_python'
+[0.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'ament_prefix_path')
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.ps1'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.dsv'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.sh'
+[0.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arms/X4M300_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arms/X4M300_ws/install/python_parameters:/home/arms/X4M300_ws/install/novelda_x4m300:/opt/ros/humble /usr/bin/cmake --build /home/arms/X4M300_ws/build/custom_interfaces -- -j20 -l20
+[0.498s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arms/X4M300_ws/src/python_parameters'
+[0.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arms/X4M300_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arms/X4M300_ws/install/python_parameters:/home/arms/X4M300_ws/install/novelda_x4m300:/opt/ros/humble /usr/bin/cmake --build /home/arms/X4M300_ws/build/custom_interfaces -- -j20 -l20
+[0.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arms/X4M300_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arms/X4M300_ws/install/python_parameters:/home/arms/X4M300_ws/install/novelda_x4m300:/opt/ros/humble /usr/bin/cmake --install /home/arms/X4M300_ws/build/custom_interfaces
+[0.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arms/X4M300_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arms/X4M300_ws/install/python_parameters:/home/arms/X4M300_ws/install/novelda_x4m300:/opt/ros/humble /usr/bin/cmake --install /home/arms/X4M300_ws/build/custom_interfaces
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces' for CMake module files
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces' for CMake config files
+[0.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces/lib'
+[0.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces/bin'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces/bin'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[0.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arms/X4M300_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[0.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces' for CMake module files
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces' for CMake config files
+[0.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces/lib'
+[0.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces/bin'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/custom_interfaces/bin'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[0.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arms/X4M300_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[0.787s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arms/X4M300_ws/src/novelda_x4m300' with build type 'ament_python'
+[0.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('novelda_x4m300', 'ament_prefix_path')
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/hook/ament_prefix_path.ps1'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/hook/ament_prefix_path.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/hook/ament_prefix_path.sh'
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.949s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arms/X4M300_ws/src/novelda_x4m300'
+[0.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arms/X4M300_ws/src/python_parameters': PYTHONPATH=/home/arms/X4M300_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/arms/X4M300_ws/build/python_parameters/build install --record /home/arms/X4M300_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/python_parameters' for CMake module files
+[1.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arms/X4M300_ws/src/python_parameters' returned '0': PYTHONPATH=/home/arms/X4M300_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/arms/X4M300_ws/build/python_parameters/build install --record /home/arms/X4M300_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/python_parameters' for CMake config files
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/python_parameters/lib'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/python_parameters/bin'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/python_parameters/lib/pkgconfig/python_parameters.pc'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages'
+[1.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'pythonpath')
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/hook/pythonpath.ps1'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/hook/pythonpath.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/hook/pythonpath.sh'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/python_parameters/bin'
+[1.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_parameters)
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/package.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/package.dsv'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/package.sh'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/package.bash'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/python_parameters/share/python_parameters/package.zsh'
+[1.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arms/X4M300_ws/install/python_parameters/share/colcon-core/packages/python_parameters)
+[1.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arms/X4M300_ws/src/novelda_x4m300': LD_LIBRARY_PATH=/home/arms/X4M300_ws/install/custom_interfaces/lib:/home/arms/turtlebot3_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arms/X4M300_ws/build/novelda_x4m300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/novelda_x4m300 build --build-base /home/arms/X4M300_ws/build/novelda_x4m300/build install --record /home/arms/X4M300_ws/build/novelda_x4m300/install.log --single-version-externally-managed install_data
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/novelda_x4m300' for CMake module files
+[1.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arms/X4M300_ws/src/novelda_x4m300' returned '0': LD_LIBRARY_PATH=/home/arms/X4M300_ws/install/custom_interfaces/lib:/home/arms/turtlebot3_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arms/X4M300_ws/build/novelda_x4m300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/novelda_x4m300 build --build-base /home/arms/X4M300_ws/build/novelda_x4m300/build install --record /home/arms/X4M300_ws/build/novelda_x4m300/install.log --single-version-externally-managed install_data
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/novelda_x4m300' for CMake config files
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/novelda_x4m300/lib'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/novelda_x4m300/bin'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/novelda_x4m300/lib/pkgconfig/novelda_x4m300.pc'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages'
+[1.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('novelda_x4m300', 'pythonpath')
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/hook/pythonpath.ps1'
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/hook/pythonpath.dsv'
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/hook/pythonpath.sh'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/arms/X4M300_ws/install/novelda_x4m300/bin'
+[1.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(novelda_x4m300)
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/package.ps1'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/package.dsv'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/package.sh'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/package.bash'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/package.zsh'
+[1.362s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arms/X4M300_ws/install/novelda_x4m300/share/colcon-core/packages/novelda_x4m300)
+[1.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.362s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.366s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.375s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arms/X4M300_ws/install/local_setup.ps1'
+[1.376s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arms/X4M300_ws/install/_local_setup_util_ps1.py'
+[1.377s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arms/X4M300_ws/install/setup.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arms/X4M300_ws/install/local_setup.sh'
+[1.378s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arms/X4M300_ws/install/_local_setup_util_sh.py'
+[1.378s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arms/X4M300_ws/install/setup.sh'
+[1.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arms/X4M300_ws/install/local_setup.bash'
+[1.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arms/X4M300_ws/install/setup.bash'
+[1.380s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arms/X4M300_ws/install/local_setup.zsh'
+[1.380s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arms/X4M300_ws/install/setup.zsh'

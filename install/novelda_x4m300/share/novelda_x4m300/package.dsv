@@ -1,0 +1,6 @@
+source;share/novelda_x4m300/hook/pythonpath.ps1
+source;share/novelda_x4m300/hook/pythonpath.dsv
+source;share/novelda_x4m300/hook/pythonpath.sh
+source;share/novelda_x4m300/hook/ament_prefix_path.ps1
+source;share/novelda_x4m300/hook/ament_prefix_path.dsv
+source;share/novelda_x4m300/hook/ament_prefix_path.sh
