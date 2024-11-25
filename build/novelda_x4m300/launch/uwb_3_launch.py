@@ -1,1 +1,0 @@
-/home/arms/X4M300_ws/src/novelda_x4m300/launch/uwb_3_launch.py
