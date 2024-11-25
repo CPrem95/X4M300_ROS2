@@ -56,5 +56,14 @@ Rebuild the workspace.
 Now you may run the launch file:
 
 ```
-ros2 launch novelda_x4m300 uwblaunch.py 
+ros2 launch novelda_x4m300 uwb_0_launch.py 
 ```
+In a seperate terminal, plot the readings using either:
+```
+ros2 run novelda_x4m300 uwbListener -t /UWBradar0/reading
+```
+or 
+```
+ros2 launch novelda_x4m300 uwb_plot_launch.py
+```
+Make necessary changes to the params.yaml and the launch files (edit: \topic, \port).
