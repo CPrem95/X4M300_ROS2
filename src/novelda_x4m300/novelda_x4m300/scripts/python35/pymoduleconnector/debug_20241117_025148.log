@@ -1,0 +1,27 @@
+0.096748 : Error parsing incoming data: lost bytes
+0.096911 : Error parsing incoming data: lost bytes
+0.096926 : Error parsing incoming data: lost bytes
+0.096935 : Error parsing incoming data: lost bytes
+0.096943 : Error parsing incoming data: lost bytes
+0.096951 : Error parsing incoming data: lost bytes
+0.176742 : Error parsing incoming data: CRC error
+0.176803 : Error parsing incoming data: lost bytes
+0.176824 : Error parsing incoming data: lost bytes
+0.176835 : Error parsing incoming data: lost bytes
+0.256448 : Error parsing incoming data: lost bytes
+0.256512 : Error parsing incoming data: lost bytes
+0.336400 : Error parsing incoming data: lost bytes
+0.336477 : Error parsing incoming data: lost bytes
+0.575999 : Error parsing incoming data: lost bytes
+0.576057 : Error parsing incoming data: lost bytes
+0.576072 : Error parsing incoming data: CRC error
+0.576081 : Error parsing incoming data: lost bytes
+0.735716 : Error parsing incoming data: lost bytes
+0.735784 : Error parsing incoming data: CRC error
+0.735807 : Error parsing incoming data: lost bytes
+1.015091 : Error parsing incoming data: out of buffer
+1.773737 : Error parsing incoming data: lost bytes
+1.853563 : Error parsing incoming data: lost bytes
+1.853627 : Error parsing incoming data: lost bytes
+1.973408 : Error parsing incoming data: lost bytes
+4.003349 : Timeout waiting for response

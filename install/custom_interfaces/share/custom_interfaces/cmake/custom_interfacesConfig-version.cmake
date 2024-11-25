@@ -1,0 +1,1 @@
+/home/arms/X4M300_ws/build/custom_interfaces/ament_cmake_core/custom_interfacesConfig-version.cmake

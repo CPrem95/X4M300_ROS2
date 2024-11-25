@@ -1,0 +1,90 @@
+[0.351s] Invoking command in '/home/arms/X4M300_ws/build/novelda_x4m300': LD_LIBRARY_PATH=/home/arms/X4M300_ws/install/custom_interfaces/lib:/home/arms/turtlebot3_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arms/X4M300_ws/build/novelda_x4m300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/arms/X4M300_ws/build/novelda_x4m300/build
+[0.501s] running develop
+[0.588s] Removing /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda-x4m300.egg-link (link to .)
+[0.603s] Invoked command in '/home/arms/X4M300_ws/build/novelda_x4m300' returned '0': LD_LIBRARY_PATH=/home/arms/X4M300_ws/install/custom_interfaces/lib:/home/arms/turtlebot3_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arms/X4M300_ws/build/novelda_x4m300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/arms/X4M300_ws/build/novelda_x4m300/build
+[0.604s] Invoking command in '/home/arms/X4M300_ws/src/novelda_x4m300': LD_LIBRARY_PATH=/home/arms/X4M300_ws/install/custom_interfaces/lib:/home/arms/turtlebot3_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arms/X4M300_ws/build/novelda_x4m300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/novelda_x4m300 build --build-base /home/arms/X4M300_ws/build/novelda_x4m300/build install --record /home/arms/X4M300_ws/build/novelda_x4m300/install.log --single-version-externally-managed install_data --force
+[0.738s] running egg_info
+[0.738s] writing ../../build/novelda_x4m300/novelda_x4m300.egg-info/PKG-INFO
+[0.738s] writing dependency_links to ../../build/novelda_x4m300/novelda_x4m300.egg-info/dependency_links.txt
+[0.738s] writing entry points to ../../build/novelda_x4m300/novelda_x4m300.egg-info/entry_points.txt
+[0.738s] writing requirements to ../../build/novelda_x4m300/novelda_x4m300.egg-info/requires.txt
+[0.738s] writing top-level names to ../../build/novelda_x4m300/novelda_x4m300.egg-info/top_level.txt
+[0.739s] reading manifest file '../../build/novelda_x4m300/novelda_x4m300.egg-info/SOURCES.txt'
+[0.740s] writing manifest file '../../build/novelda_x4m300/novelda_x4m300.egg-info/SOURCES.txt'
+[0.740s] running build
+[0.740s] running build_py
+[0.740s] creating /home/arms/X4M300_ws/build/novelda_x4m300/build
+[0.740s] creating /home/arms/X4M300_ws/build/novelda_x4m300/build/lib
+[0.740s] creating /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300
+[0.740s] copying novelda_x4m300/__init__.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300
+[0.740s] creating /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts
+[0.740s] copying novelda_x4m300/scripts/plotUWB.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts
+[0.747s] copying novelda_x4m300/scripts/__init__.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts
+[0.747s] copying novelda_x4m300/scripts/publisher.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts
+[0.748s] copying novelda_x4m300/scripts/readUWB.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts
+[0.748s] creating /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35
+[0.748s] copying novelda_x4m300/scripts/python35/__init__.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35
+[0.748s] copying novelda_x4m300/scripts/python35/setup.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35
+[0.748s] creating /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.748s] copying novelda_x4m300/scripts/python35/pymoduleconnector/version.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.748s] copying novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnector.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.749s] copying novelda_x4m300/scripts/python35/pymoduleconnector/__init__.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.749s] copying novelda_x4m300/scripts/python35/pymoduleconnector/ids.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.749s] copying novelda_x4m300/scripts/python35/pymoduleconnector/rawreadings.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.749s] creating /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnectorwrapper
+[0.749s] copying novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnectorwrapper/__init__.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnectorwrapper
+[0.750s] creating /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/doc
+[0.750s] copying novelda_x4m300/scripts/python35/pymoduleconnector/doc/__init__.py -> /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/doc
+[0.750s] running install
+[0.750s] running install_lib
+[0.750s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/__init__.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/plotUWB.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/__init__.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/publisher.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/__init__.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/setup.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/version.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnector.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/__init__.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnectorwrapper/__init__.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnectorwrapper
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/ids.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/rawreadings.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector
+[0.751s] creating /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/doc
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/python35/pymoduleconnector/doc/__init__.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/doc
+[0.751s] copying /home/arms/X4M300_ws/build/novelda_x4m300/build/lib/novelda_x4m300/scripts/readUWB.py -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts
+[0.751s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/__init__.py to __init__.cpython-310.pyc
+[0.751s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/plotUWB.py to plotUWB.cpython-310.pyc
+[0.752s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/__init__.py to __init__.cpython-310.pyc
+[0.752s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/publisher.py to publisher.cpython-310.pyc
+[0.752s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/__init__.py to __init__.cpython-310.pyc
+[0.752s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/setup.py to setup.cpython-310.pyc
+[0.752s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/version.py to version.cpython-310.pyc
+[0.752s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnector.py to moduleconnector.cpython-310.pyc
+[0.753s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/__init__.py to __init__.cpython-310.pyc
+[0.753s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnectorwrapper/__init__.py to __init__.cpython-310.pyc
+[0.776s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/ids.py to ids.cpython-310.pyc
+[0.776s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/rawreadings.py to rawreadings.cpython-310.pyc
+[0.777s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/doc/__init__.py to __init__.cpython-310.pyc
+[0.777s] byte-compiling /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/readUWB.py to readUWB.cpython-310.pyc
+[0.777s] running install_data
+[0.777s] copying resource/novelda_x4m300 -> /home/arms/X4M300_ws/install/novelda_x4m300/share/ament_index/resource_index/packages
+[0.777s] copying package.xml -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300
+[0.777s] copying launch/uwb_3_launch.py -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300
+[0.777s] copying launch/uwb_0_launch.py -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300
+[0.777s] copying launch/uwb_4_launch.py -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300
+[0.777s] copying launch/uwb_1_launch.py -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300
+[0.777s] copying launch/uwb_2_launch.py -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300
+[0.777s] copying launch/uwb_plot_launch.py -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300
+[0.777s] copying launch/uwblaunch.py -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300
+[0.777s] copying launch/uwbradar_xml.launch -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300
+[0.778s] copying launch/talker.launch -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300
+[0.778s] copying config/params.yaml -> /home/arms/X4M300_ws/install/novelda_x4m300/share/novelda_x4m300/config
+[0.778s] copying novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnectorwrapper/_moduleconnectorwrapper.so -> /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300/scripts/python35/pymoduleconnector/moduleconnectorwrapper
+[0.780s] running install_egg_info
+[0.781s] Copying ../../build/novelda_x4m300/novelda_x4m300.egg-info to /home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages/novelda_x4m300-0.0.0-py3.10.egg-info
+[0.782s] running install_scripts
+[0.792s] Installing test script to /home/arms/X4M300_ws/install/novelda_x4m300/lib/novelda_x4m300
+[0.792s] Installing uwbListener script to /home/arms/X4M300_ws/install/novelda_x4m300/lib/novelda_x4m300
+[0.792s] Installing uwbTalker script to /home/arms/X4M300_ws/install/novelda_x4m300/lib/novelda_x4m300
+[0.793s] writing list of installed files to '/home/arms/X4M300_ws/build/novelda_x4m300/install.log'
+[0.807s] Invoked command in '/home/arms/X4M300_ws/src/novelda_x4m300' returned '0': LD_LIBRARY_PATH=/home/arms/X4M300_ws/install/custom_interfaces/lib:/home/arms/turtlebot3_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arms/X4M300_ws/build/novelda_x4m300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/novelda_x4m300/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/novelda_x4m300 build --build-base /home/arms/X4M300_ws/build/novelda_x4m300/build install --record /home/arms/X4M300_ws/build/novelda_x4m300/install.log --single-version-externally-managed install_data --force

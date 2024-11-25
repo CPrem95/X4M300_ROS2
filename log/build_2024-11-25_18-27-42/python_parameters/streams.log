@@ -1,0 +1,37 @@
+[0.375s] Invoking command in '/home/arms/X4M300_ws/build/python_parameters': PYTHONPATH=/home/arms/X4M300_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/arms/X4M300_ws/build/python_parameters/build
+[0.535s] running develop
+[0.624s] Removing /home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages/python-parameters.egg-link (link to .)
+[0.640s] Invoked command in '/home/arms/X4M300_ws/build/python_parameters' returned '0': PYTHONPATH=/home/arms/X4M300_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/arms/X4M300_ws/build/python_parameters/build
+[0.641s] Invoking command in '/home/arms/X4M300_ws/src/python_parameters': PYTHONPATH=/home/arms/X4M300_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/arms/X4M300_ws/build/python_parameters/build install --record /home/arms/X4M300_ws/build/python_parameters/install.log --single-version-externally-managed install_data --force
+[0.817s] running egg_info
+[0.817s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[0.817s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[0.817s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[0.817s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[0.818s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[0.819s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[0.819s] adding license file 'LICENSE'
+[0.819s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[0.819s] running build
+[0.819s] running build_py
+[0.820s] creating /home/arms/X4M300_ws/build/python_parameters/build
+[0.820s] creating /home/arms/X4M300_ws/build/python_parameters/build/lib
+[0.820s] creating /home/arms/X4M300_ws/build/python_parameters/build/lib/python_parameters
+[0.820s] copying python_parameters/__init__.py -> /home/arms/X4M300_ws/build/python_parameters/build/lib/python_parameters
+[0.820s] copying python_parameters/python_parameters_node.py -> /home/arms/X4M300_ws/build/python_parameters/build/lib/python_parameters
+[0.820s] running install
+[0.821s] running install_lib
+[0.821s] creating /home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[0.821s] copying /home/arms/X4M300_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[0.821s] copying /home/arms/X4M300_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[0.821s] byte-compiling /home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py to __init__.cpython-310.pyc
+[0.822s] byte-compiling /home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-310.pyc
+[0.822s] running install_data
+[0.822s] copying resource/python_parameters -> /home/arms/X4M300_ws/install/python_parameters/share/ament_index/resource_index/packages
+[0.822s] copying package.xml -> /home/arms/X4M300_ws/install/python_parameters/share/python_parameters
+[0.822s] running install_egg_info
+[0.823s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[0.823s] running install_scripts
+[0.840s] Installing param_node script to /home/arms/X4M300_ws/install/python_parameters/lib/python_parameters
+[0.840s] writing list of installed files to '/home/arms/X4M300_ws/build/python_parameters/install.log'
+[0.858s] Invoked command in '/home/arms/X4M300_ws/src/python_parameters' returned '0': PYTHONPATH=/home/arms/X4M300_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arms/X4M300_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/arms/X4M300_ws/build/python_parameters/build install --record /home/arms/X4M300_ws/build/python_parameters/install.log --single-version-externally-managed install_data --force

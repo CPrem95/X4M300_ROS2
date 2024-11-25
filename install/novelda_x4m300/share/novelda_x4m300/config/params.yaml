@@ -1,0 +1,45 @@
+# params.yaml >>> This is different compared to ROS1, read the documentation:: https://docs.ros.org/en/foxy/How-To-Guides/Parameters-YAML-files-migration-guide.html#yaml-file-example
+
+# The plot node does not identify these parameters via the launch file, I don't know why (may be threading lib), but it is not a problem,
+# Change the parameters in the source code of the plot node.
+UWBplot0:
+  UWBlistener:
+    ros__parameters:
+      xLims: [1, 500] #limits in the plotting x axis 0<limit<1400 || Upper_limit < #bins below
+
+UWBradar0:
+  read:
+    ros__parameters:
+      pubRate: 20 # <20{FPS of the UWB radar} 
+      bins: 1000 #number of bins published from the reading || max 1431
+
+# For SLAM with NOVELDA X4M300
+UWBradar1:
+  read:
+    ros__parameters:
+      pubRate: 20 # <20{FPS of the UWB radar} 
+      bins: 1000 #number of bins published from the reading || max 1431
+
+UWBradar2:
+  read:
+    ros__parameters:
+      pubRate: 20 # <20{FPS of the UWB radar} 
+      bins: 1000 #number of bins published from the reading || max 1431
+
+UWBradar3:
+  read:
+    ros__parameters:
+      pubRate: 20 # <20{FPS of the UWB radar} 
+      bins: 1000 #number of bins published from the reading || max 1431
+
+UWBradar4:
+  read:
+    ros__parameters:
+      pubRate: 20 # <20{FPS of the UWB radar} 
+      bins: 1000 #number of bins published from the reading || max 1431
+
+# /**: 
+#   ros__parameters:
+#     pubRate: 20 # <20{FPS of the UWB radar} 
+#     xLims: [1, 800] #limits in the plotting x axis 0<limit<1400
+#     bins: 1000 #number of bins from the reading
