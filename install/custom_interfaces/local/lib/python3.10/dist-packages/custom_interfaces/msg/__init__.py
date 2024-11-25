@@ -1,1 +1,0 @@
-/home/arms/X4M300_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/msg/__init__.py
